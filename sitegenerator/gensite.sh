@@ -11,7 +11,7 @@ find content/ -type f -name "*.md" |
 done
 
 
-cp -r static/* ../
+#cp -r static/* ../
 #find static/ -type f |
   #set -e 's/static\/\(.*\)/\0 output\/\1/g' |
   #while read $from $to; do
