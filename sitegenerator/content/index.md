@@ -1,6 +1,6 @@
 
-# Solving the "Credit Problem"
-### It's about supporting a stock using a flow.
+# Solving the Credit Problem
+### It's about supporting a stock using a flow
 #### Derek McDaniel - Nov 1, 2020
 
 ## What is the *Credit Problem*?
@@ -16,7 +16,7 @@ two principle factors which prevent it from being used as currency outright:
  1. General Acceptability
  2. Risk of Default
 
-If you can get your credit to be generally acceptable, and eliminate the risks
+To the extent you can get your credit to be generally acceptable, and mitigate the risks
 of default, then your credit can, in effect, serve as a form of currency. This
 is, in fact the purpose of issuing what is referred to as "securities".
 Securities refer to a financial asset which can be traded or exchanged with
@@ -39,7 +39,7 @@ transfering the loan.
 
 By issuing tokenized debt securities, instead of simply "getting a loan", it
 makes it possible for your creditors to freely use your contract in exchanges
-and trade it with others. In essence, you are turning a flow(the promise to
+and trade it with others. In essence, you are turning a flow(your promise to
 repay money on regular intervals) into a stock (the tokenized debt securities
 which can be freely traded).
 
