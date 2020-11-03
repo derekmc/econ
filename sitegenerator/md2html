@@ -1,6 +1,7 @@
 #!/bin/sed -Ef
 
 ### md-to-html: Sed script that converts Markdown to HTML code
+### https://github.com/stamby/md-to-html
 
 s/\t/  /g
 s/^ +$//
