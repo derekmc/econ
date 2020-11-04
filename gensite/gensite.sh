@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# set current working directory to this folder.
+cd "$(dirname "$0")"
+
 # This static site generator script is designed to work well with Github Pages,
 # in that the generated files are stored in the top level directory for the project
 # so that they can be commmitted and uploaded to a github pages site directly.
