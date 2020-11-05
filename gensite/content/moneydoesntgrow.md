@@ -46,7 +46,7 @@ costs and inefficiencies of deliverying the product to you, the price markup on 
 is simply a measure of the TOTAL inefficiency to deliver the product to you.
 
 If we look at nature, bees make their honeycombs out of honey.  It actually takes
-[6-8 pounds](https://beekeeperfacts.com/how-long-does-it-take-for-bees-to-make-honeycomb-hate-waiting/
+[6-8 pounds](https://beekeeperfacts.com/how-long-does-it-take-for-bees-to-make-honeycomb-hate-waiting/)
 of honey, to make 1 pound of wax.  So in that case, storing value is only about 12% efficient.  90%
 of the value goes into the storage mechanism, which can't be recovered.
 
