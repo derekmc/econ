@@ -1,9 +1,10 @@
 # The Myth of Growing Money
 ### The opportunity cost is failing to issue credit
+#### Derek McDaniel - Nov 4, 2020
 
 So credit is a financial transaction without relying on money, or you can view it as *creating*
-money, as I describe in my post "Solving the Credit Problem".  If you accept someone's word, or some
-other promise to pay money, you 
+money, as I describe in my post [Solving the Credit Problem](../20201101-credit-problem.html).
+If you accept someone's word, or some other promise to pay money, you 
 
 ## Removing Time From The Picture
 

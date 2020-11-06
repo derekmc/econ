@@ -12,7 +12,7 @@ cd "$(dirname "$0")"
 # Generate HTML files
 echo "Generating HTML files"
 
-find content/ -type f -name "*.md" |
+find content/ -type f -name "*.md" | sort -r |
   sed -e 's/content\/\(.*\)\.md/\0 ..\/\1.html/g' |
   while read infile outfile; do
     echo "$infile to $outfile"
@@ -31,7 +31,7 @@ cat template/indexheader.html > ../index.html
 echo
 echo "Adding Index Links"
 
-find content/ -type f -name "*.md" |
+find content/ -type f -name "*.md" | sort -r |
   sed -e 's/content\/\(.*\)\.md/\0 \1.html/g' |
   while read filename pageref; do
     # echo "Page Ref: ${pageref}"
