@@ -1,6 +1,6 @@
 # Multiplicative Accounting Is Obselete
 ### Addition is more accurate than multiplication
-Derek McDaniel - Nov 4, 2020
+##### Derek McDaniel - Nov 4, 2020
 
 Interest rate "logic" is frequently justified with *multiplicative accounting*.  Multiplicative
 accounting is just the practice of comparing quantities proportionally, using mulplication.  There

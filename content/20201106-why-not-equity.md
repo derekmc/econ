@@ -1,6 +1,6 @@
 # Why Not Equity?
 ### Don't set yourself up to fail
-#### Derek McDaniel - Nov 6, 2020
+##### Derek McDaniel - Nov 6, 2020
 
 In this blog we advocate issuing tokenized debt securities, in other words, your own currency. So
 the question is clearly "why not equity".  Well the biggest problem is that equity relies on

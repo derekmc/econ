@@ -1,6 +1,6 @@
 # The Lust-Loss Cycle
 ### Only Losers Care About Morality
-Derek McDaniel - Nov 4, 2020
+##### Derek McDaniel - Nov 4, 2020
 
 Morality is a notion designed to deal with loss.  There are two kinds of losses, the first is
 competitive loss, and the second is a natural loss.  Morality is about how we cope, address, and

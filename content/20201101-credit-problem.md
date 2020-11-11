@@ -1,6 +1,6 @@
 # Solving the Credit Problem
 ### How to support stock using a flow
-#### Derek McDaniel - Nov 1, 2020
+##### Derek McDaniel - Nov 1, 2020
 
 ## What is the *Credit Problem*?
 

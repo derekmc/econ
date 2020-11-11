@@ -1,7 +1,6 @@
 # Investements Compete On Price, NOT Interest Rate
 ### You can't do both...
-
-Derek McDaniel - Nov 4, 2020
+##### Derek McDaniel - Nov 4, 2020
 
 There is a well accepted myth in circulation, that investments compete based on a rate of interest.
 That is completely untrue.  All assets compete on price alone, and any "interest rate" simply gets

@@ -1,6 +1,6 @@
 # Depreciation is not theft
 ### It's not easy to get a currency accepted
-#### Derek McDaniel - Nov 6, 2020
+##### Derek McDaniel - Nov 6, 2020
 
 The stated goal of this blog is to allow people to securitize their own credit, thus creating their
 own currency.  This is achieved by turning a flow (of repayments) into a stock (of callable linearly

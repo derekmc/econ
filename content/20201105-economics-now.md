@@ -1,6 +1,6 @@
 # Economics Now
 ### Lets stop waiting to realize the Time Value of Life
-#### Derek McDaniel - Nov 5, 2020
+##### Derek McDaniel - Nov 5, 2020
 
 Sometimes in this blog, I dont finish sentences I start. Sometimes what follows is obvious or
 unimportant, and I may have something more important to
