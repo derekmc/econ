@@ -36,7 +36,7 @@ currency, takes the place of a credit score.
 
 This means, that, as your credit score goes down, you have to pay back less.  Investors determine
 your credit score both by trading to purchase newly issued tokens when you want to raise more
-capital, and by bidding on your stream of based currency repayments with matured tokens.  To allow
+capital, and by bidding on your stream of base currency repayments with matured tokens.  To allow
 for some flexibility, you can allow investors to "cash out" to your virtual tokens early, based on
 how long they waited.  If they wait to half the maturity, they only get 50% out.  If they wait 90%
 of the time, they get 90% of the mature amount out.  Because they are cashing out to get your
