@@ -72,3 +72,17 @@ investors get a better conversion rate than the former security purchasers.  So 
 cashout rate is 95%, then you can offer a buy-in rate of 90%, such that new security buyers only
 have to pay 90 cents on the dollar, and can anticipate getting 95 cents on the dollar, when they
 cash out, in addition the amount that their bonds earn.
+
+
+## Github Repository and Project Details
+
+Currently, the code for a project to issue these bonds is being developed on github under the name
+[webcmd-py](https://github.com/derekmc/webcmd-py).  webcmd-py emulates a command line interface in the
+browser, so you don't have to write a bunch of different web pages.  There will be commands for
+creating currencies, issuing bonds, converting bonds directly into bitcoins on the server, and
+tracking payments into other currency conversions.
+
+The parent project was [node-web-cmd](https://github.com/derekmc/node-web-cmd/), with a
+[demo video](https://youtu.be/fOclL2WkKzY?t=929) showing how it works.
+
+
