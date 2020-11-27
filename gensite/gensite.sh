@@ -12,6 +12,9 @@ cd "$(dirname "$0")"
 # Generate HTML files
 echo "Generating HTML files"
 
+
+## List the folders of subblogs here
+
 find ../content/ -type f -name "*.md" | sort -r |
   sed -e 's/\.\.\/content\/\(.*\)\.md/\0 ..\/\1.html/g' |
   while read infile outfile; do
