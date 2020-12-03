@@ -15,7 +15,7 @@ echo "Generating HTML files"
 
 ## List the folders of subblogs here
 
-find ../content/ -type f -name "*.md" | sort -r |
+find ../content/ -type f \( -iname "*.chapter" -o -iname "*.md" \) | sort -r |
   sed -e 's/\.\.\/content\/\(.*\)\.md/\0 ..\/\1.html/g' |
   while read infile outfile; do
     echo "$infile to $outfile"
@@ -34,7 +34,8 @@ cat template/indexheader.html > ../index.html
 echo
 echo "Adding Index Links"
 
-find ../content/ -type f -name "*.md" | sort -r |
+#find ../content/ -type f -name "*.md" | sort |
+find ../content/ -type f \( -iname "*.chapter" -o -iname "*.md" \) | sort |
   sed -e 's/\.\.\/content\/\(.*\)\.md/\0 \1.html/g' |
   while read filename pageref; do
     # echo "Page Ref: ${pageref}"
@@ -43,7 +44,11 @@ find ../content/ -type f -name "*.md" | sort -r |
     pagetitle="${firstline:2}"
     echo "\"$pagetitle\""
     # echo "Page Title: ${pagetitle}"
-    cat template/index.html | sed "s/\${title}/$pagetitle/g;s/\${href}/\.\/$pageref/g" >> ../index.html
+    if [ ${filename: -8} == ".chapter" ] ; then
+      cat template/chapter.html | sed "s/\${title}/$pagetitle/g;s/\${href}/\.\/$pageref/g" >> ../index.html
+    elif [ ${filename: -3} == ".md" ] ; then
+      cat template/index.html | sed "s/\${title}/$pagetitle/g;s/\${href}/\.\/$pageref/g" >> ../index.html
+    fi
 done
 
 cat template/indexfooter.html >> ../index.html
