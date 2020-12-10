@@ -1,0 +1,150 @@
+<!doctype html>
+<html>
+  <head>
+    <title> Economics Now </title>
+    <link rel="stylesheet" href="./static/main.css">
+  </head>
+  <body>
+
+<h1 id="the-rule-of-69-and-savings-accounts">The Rule of 69 and Savings Accounts</h1>
+<h3 id="why-gambling-is-better-than-saving">Why gambling is better than saving</h3>
+
+<p>Gambling gets a bad rap.  There are good reasons for this.  The most important
+reason why gambling is bad is because it makes it hard to tell when you are getting cheated.
+Even if you are perfect at assessing odds, which most people are not, you have to
+do a lot of transactions to make sure you are not getting cheated.</p>
+
+<p>In most cases, the &quot;house&quot; takes a cut as well.  Whether you think this is fair or not,
+is up to you.  But this is true of savings accounts as well, without gambling.</p>
+
+<p>Our entire banking system is predicated on &quot;trust&quot; that you trust someone to store
+your money.  This requires a complex legal and political structure to prevent fraud,
+abuse or simply mismanagement.</p>
+
+<h2 id="enter-the-rule-of-69">Enter the rule of 69.</h2>
+
+<p>Let&apos;s imagine you are trying to save to buy an electric bicycle for $1,000.
+We will also imagine, that you have $10/day to set aside for savings.</p>
+
+<p>At that rate, it will take you 100 days to save up for the bicycle.</p>
+
+<p>Now let&apos;s imagine that instead, you take that money each day, and bet it
+at fair odds, to win $1,000.  How long should you expect to take to get
+the money?
+Well, typically, people use averages, or &quot;expected values&quot; to compute the
+time it will take, in which case, the time is exactly the same: 100 days.  But if instead
+we look at the <em>median</em> time, we get a completely different answer.</p>
+
+<p>The easy way of computing this, is recognizing, that each day we have a 99%
+chance of losing the money.  To get the odds of successive losses, we simply multiply
+those values together.  So the chance of losing 2 days in a row is:</p>
+
+<pre><code>    0.99 * 0.99 =
+    (1 - 0.01) * (1 - 0.01) =
+    1 - 2 * 0.01 + 0.0001 
+    1 - 0.02 + 0.0001 =
+    0.9801
+</code></pre>
+
+<p>The chance of losing <em>n</em> days in a row is:</p>
+
+<pre><code>   0.99^n
+</code></pre>
+
+<p>So to compute the median time to get $1,000 if you save $10/day, we must simply find the
+value of <em>n</em> such that
+<pre><code>  0.99^n &lt; 0.5
+</code></pre>
+
+<p>Let&apos;s try some values</p>
+
+<pre><code>[user@computer ~]$ bc -l
+bc 1.07.1
+Copyright 1991-1994, 1997, 1998, 2000, 2004, 2006, 2008, 2012-2017 Free Software Foundation, Inc.
+This is free software with ABSOLUTELY NO WARRANTY.
+For details type `warranty&apos;.
+0.9900000^100
+.36603234127322950493
+0.99000000^50
+.60500606713753665044
+0.99000000^60
+.54715664239076147619
+0.99000000^70
+.49483865960020725986
+0.99000000^69
+.49983702989919925238
+0.99000000^68
+.50488588878706995190
+</code></pre>
+
+<p>As you can see from those calculations, 69 is the first value for which 0.99^n is less than 0.5,
+so the median time to win $1,000 dollars betting $10/day, is 69 days!  In the median case,
+you will save 31 days, or an entire month, by betting your money instead of saving it.</p>
+
+<h2 id="what-apos-s-going-on-here-mathematically">What&apos;s going on here mathematically?</h2>
+
+<p>The fact is median and averages are different beasts.  If you simply save your money,
+you are guaranteed to have $1,000 by the 100 days.  But if you gamble, some times you
+will win that money on the first day, and sometimes after 1000 days you still won&apos;t win the money.</p>
+
+<p>In fact, according to the above, 37% of the time, you won&apos;t win the money even after 100 days.
+So that&apos;s the downside.  If you square 0.37 again, you get about a 14% chance that you still won&apos;t
+win after 200 days.  Going out from there, it gets worse.</p>
+
+
+<h2 id="so-when-should-i-gamble">So when should I gamble?</h2>
+
+<p>Evaluating when gambling is an effective strategy, tells you a lot about how to invest money in general.
+Basically, gambling will take a certain event, and smear it out over time, so it could happen sooner,
+later, or never.</p>
+
+<p>If you absolutely need something to happen, then saving is a much more effective strategy, provided
+you have sufficient time to save the money you need.  If you don&apos;t have time to save or resources
+to borrow, your best bet, literally, is to save as much as you can, and then gamble for the rest.</p>
+
+<p>If you only have 99 days to save $100 at $1 a day, then you can save $99 and then you have a 99%
+chance of winning the last slice of money you need.</p>
+
+
+<h2 id="an-alternative-to-banking-stateless-savings-accounts">An Alternative To Banking: Stateless Savings Accounts</h2>
+
+<p>So gambling, for certain financial applications, can be a viable alternative to banking. This
+substantially decreases counterparty risk and moral hazard.  In this case the &quot;house&quot;
+does not need to store any money long term.  They only need to find people willing to bid odds
+on a certain pot size.  The &quot;house&quot; doesn&apos;t even have to handle any money directly, they can
+simply require people bidding on the next pool, to pay their bids to the winner of the last pool.</p>
+
+<p>By not handling any money themselves, the &quot;house&quot; protects themselves from both financial
+regulation and theft.  The house can simply work for tips or a small percentage of pot bids
+go to the house directly instead of the last pool winner.  The house may collect the payments
+from the initial pool to pay for startup costs or &quot;reserves&quot; in case one of the &quot;pools&quot; does
+not attract sufficient participants.</p>
+
+<p>In this way, by only handling a very small amount of money directly, the house can facilitate
+many many transactions.</p>
+
+<p>And while this may be prone to corruption or &quot;fixing&quot; schemes, it is also possible
+to cryptographically ensure results are fair and random.</p>
+
+<p>This kind of system is perfect for use with bitcoin or other cryptocurrencies.</p>
+
+<h2 id="overview">Overview</h2>
+
+<p>While traditional financial institutions have an important role in financial systems, there
+are much simpler and slimmer institutions possible, that can take over many of the roles
+of these traditional institutions.  How you use this and what you decide to do with your
+money is up to you.</p>
+
+
+
+<p>By starting with small pool sizes, and then gradually increasing </p>
+
+<p>or an entire month, by betting</p>
+
+<p>Some </p>
+  <br/>
+  <!-- <a href="./index.html"> Home </a> -->
+  <a style="display: block; font-size: 110%; padding: 15px 25px; margin-left: -25px; width: 100%; background: white; color: black; border-top: 1px solid black; text-align: center;" href="./index.html">
+  Index   </a>
+  </body>
+</html>
