@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <item>
+    <title> Solving the Credit Problem </title>
+    <link> ./20201101-credit-problem.html </title>
+    <description> Solving the Credit Problem </description>
+  </item
+  <item>
+    <title> Investements Compete On Price, NOT Interest Rate </title>
+    <link> ./20201104-competeonpricenotrate.html </title>
+    <description> Investements Compete On Price, NOT Interest Rate </description>
+  </item
+  <item>
+    <title> Multiplicative Accounting Is Obselete </title>
+    <link> ./20201104-dontmultiply.html </title>
+    <description> Multiplicative Accounting Is Obselete </description>
+  </item
+  <item>
+    <title> The Lust-Loss Cycle </title>
+    <link> ./20201104-lust-cycle.html </title>
+    <description> The Lust-Loss Cycle </description>
+  </item
+  <item>
+    <title> The Myth of Growing Money </title>
+    <link> ./20201104-moneydoesntgrow.html </title>
+    <description> The Myth of Growing Money </description>
+  </item
+  <item>
+    <title> Economics Now </title>
+    <link> ./20201105-economics-now.html </title>
+    <description> Economics Now </description>
+  </item
+  <item>
+    <title> Depreciation is not theft </title>
+    <link> ./20201106-inflation-not-theft.html </title>
+    <description> Depreciation is not theft </description>
+  </item
+  <item>
+    <title> Why Not Equity? </title>
+    <link> ./20201106-why-not-equity.html </title>
+    <description> Why Not Equity? </description>
+  </item
+  <item>
+    <title> Superbonds are the "Next Best Thing" </title>
+    <link> ./20201110-superbonds.html </title>
+    <description> Superbonds are the "Next Best Thing" </description>
+  </item
+  <item>
+    <title> Land Value Tax is Dumb </title>
+    <link> ./20201121-lvtdumb.html </title>
+    <description> Land Value Tax is Dumb </description>
+  </item
+  <item>
+    <title> Star Wars Economcis </title>
+    <link> ./20201126-star-wars.html </title>
+    <description> Star Wars Economcis </description>
+  </item
+  <item>
+    <title> The Rule of 69 and Savings Accounts </title>
+    <link> ./20201210-ruleof69.html </title>
+    <description> The Rule of 69 and Savings Accounts </description>
+  </item
+
+</channel>
+</rss>

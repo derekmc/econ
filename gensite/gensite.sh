@@ -54,5 +54,29 @@ done
 cat template/indexfooter.html >> ../index.html
 
 echo
-echo "Static site generation finished."
+echo "Index page finished"
+echo
+
+
+cat template/rssheader.xml > ../rss.xml
+
+echo
+echo "Adding RSS Links"
+
+#find ../content/ -type f -name "*.md" | sort |
+find ../content/ -type f \( -iname "*.md" \) | sort |
+  sed -e 's/\.\.\/content\/\(.*\)\.md/\0 \1.html/g' |
+  while read filename pageref; do
+    # echo "Page Ref: ${pageref}"
+    # echo "Filename: ${filename}"
+    firstline=$(head -n 1 "$filename")
+    pagetitle="${firstline:2}"
+    # echo "Page Title: ${pagetitle}"
+    cat template/rss.xml | sed "s/\${title}/$pagetitle/g;s/\${href}/\.\/$pageref/g" >> ../rss.xml
+done
+
+cat template/rssfooter.xml >> ../rss.xml
+
+echo
+echo "RSS page finished"
 echo
