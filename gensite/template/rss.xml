@@ -1,5 +1,5 @@
   <item>
     <title> ${title} </title>
-    <link> ${href} </title>
+    <link> ${href} </link>
     <description> ${title} </description>
   </item
