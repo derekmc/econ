@@ -3,15 +3,10 @@
 
 ## Basic Income Requires Unity
 
-One of my reservations about basic income, is that it puts your choice to support people, out of your hands.
-
-We have a diverse country, and while civility dictates letting people live their own lives, so long as they
-afford you the same, there are many people we may not want to support, that what they are doing is not helping
-us out.
-
 In capitalism, things don't tend to survive unless people support them enough to keep them going.
 It is important, not only to support the things you believe in, but to withdraw support from things
 you don't believe in, or potentially actively oppose them, if the harm justifies that.
+This means people need greater unity under basic income.
 
 ## You Only Need 30 People to start a currency.
 
